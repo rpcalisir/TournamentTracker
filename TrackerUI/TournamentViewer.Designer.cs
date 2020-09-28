@@ -104,7 +104,7 @@
             this.lstMatchup.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lstMatchup.FormattingEnabled = true;
             this.lstMatchup.ItemHeight = 37;
-            this.lstMatchup.Location = new System.Drawing.Point(23, 234);
+            this.lstMatchup.Location = new System.Drawing.Point(23, 216);
             this.lstMatchup.Name = "lstMatchup";
             this.lstMatchup.Size = new System.Drawing.Size(448, 224);
             this.lstMatchup.TabIndex = 5;
@@ -114,7 +114,7 @@
             this.lblTeamOne.AutoSize = true;
             this.lblTeamOne.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeamOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.lblTeamOne.Location = new System.Drawing.Point(504, 173);
+            this.lblTeamOne.Location = new System.Drawing.Point(616, 128);
             this.lblTeamOne.Name = "lblTeamOne";
             this.lblTeamOne.Size = new System.Drawing.Size(208, 46);
             this.lblTeamOne.TabIndex = 6;
@@ -125,7 +125,7 @@
             this.lblScoreOne.AutoSize = true;
             this.lblScoreOne.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScoreOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.lblScoreOne.Location = new System.Drawing.Point(504, 227);
+            this.lblScoreOne.Location = new System.Drawing.Point(616, 182);
             this.lblScoreOne.Name = "lblScoreOne";
             this.lblScoreOne.Size = new System.Drawing.Size(104, 46);
             this.lblScoreOne.TabIndex = 7;
@@ -133,14 +133,14 @@
             // 
             // txtTeamOneScore
             // 
-            this.txtTeamOneScore.Location = new System.Drawing.Point(614, 234);
+            this.txtTeamOneScore.Location = new System.Drawing.Point(726, 189);
             this.txtTeamOneScore.Name = "txtTeamOneScore";
             this.txtTeamOneScore.Size = new System.Drawing.Size(100, 43);
             this.txtTeamOneScore.TabIndex = 8;
             // 
             // txtTeamTwoScore
             // 
-            this.txtTeamTwoScore.Location = new System.Drawing.Point(614, 415);
+            this.txtTeamTwoScore.Location = new System.Drawing.Point(726, 385);
             this.txtTeamTwoScore.Name = "txtTeamTwoScore";
             this.txtTeamTwoScore.Size = new System.Drawing.Size(100, 43);
             this.txtTeamTwoScore.TabIndex = 11;
@@ -150,7 +150,7 @@
             this.lblScoreTwo.AutoSize = true;
             this.lblScoreTwo.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScoreTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.lblScoreTwo.Location = new System.Drawing.Point(504, 408);
+            this.lblScoreTwo.Location = new System.Drawing.Point(616, 378);
             this.lblScoreTwo.Name = "lblScoreTwo";
             this.lblScoreTwo.Size = new System.Drawing.Size(104, 46);
             this.lblScoreTwo.TabIndex = 10;
@@ -161,7 +161,7 @@
             this.lblTeamTwo.AutoSize = true;
             this.lblTeamTwo.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeamTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.lblTeamTwo.Location = new System.Drawing.Point(504, 354);
+            this.lblTeamTwo.Location = new System.Drawing.Point(616, 324);
             this.lblTeamTwo.Name = "lblTeamTwo";
             this.lblTeamTwo.Size = new System.Drawing.Size(208, 46);
             this.lblTeamTwo.TabIndex = 9;
@@ -172,7 +172,7 @@
             this.lblVs.AutoSize = true;
             this.lblVs.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.lblVs.Location = new System.Drawing.Point(571, 289);
+            this.lblVs.Location = new System.Drawing.Point(683, 259);
             this.lblVs.Name = "lblVs";
             this.lblVs.Size = new System.Drawing.Size(87, 46);
             this.lblVs.TabIndex = 12;
@@ -186,7 +186,7 @@
             this.btnScore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnScore.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.btnScore.Location = new System.Drawing.Point(718, 299);
+            this.btnScore.Location = new System.Drawing.Point(862, 252);
             this.btnScore.Name = "btnScore";
             this.btnScore.Size = new System.Drawing.Size(107, 62);
             this.btnScore.TabIndex = 13;
@@ -198,7 +198,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(837, 542);
+            this.ClientSize = new System.Drawing.Size(1053, 542);
             this.Controls.Add(this.btnScore);
             this.Controls.Add(this.lblVs);
             this.Controls.Add(this.txtTeamTwoScore);
