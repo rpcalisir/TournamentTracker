@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateTournamentForm));
-            this.lblHeader = new System.Windows.Forms.Label();
+            this.lblCreateTournament = new System.Windows.Forms.Label();
             this.txtTournamentName = new System.Windows.Forms.TextBox();
             this.lblTournamentName = new System.Windows.Forms.Label();
             this.txtEntryFee = new System.Windows.Forms.TextBox();
@@ -48,16 +48,16 @@
             this.btnCreateTournament = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lblHeader
+            // lblCreateTournament
             // 
-            this.lblHeader.AutoSize = true;
-            this.lblHeader.Font = new System.Drawing.Font("Segoe UI Light", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.lblHeader.Location = new System.Drawing.Point(12, 9);
-            this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(323, 51);
-            this.lblHeader.TabIndex = 1;
-            this.lblHeader.Text = "Create Tournament";
+            this.lblCreateTournament.AutoSize = true;
+            this.lblCreateTournament.Font = new System.Drawing.Font("Segoe UI Light", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCreateTournament.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.lblCreateTournament.Location = new System.Drawing.Point(12, 9);
+            this.lblCreateTournament.Name = "lblCreateTournament";
+            this.lblCreateTournament.Size = new System.Drawing.Size(323, 51);
+            this.lblCreateTournament.TabIndex = 1;
+            this.lblCreateTournament.Text = "Create Tournament";
             // 
             // txtTournamentName
             // 
@@ -263,7 +263,7 @@
             this.Controls.Add(this.lblEntryFee);
             this.Controls.Add(this.txtTournamentName);
             this.Controls.Add(this.lblTournamentName);
-            this.Controls.Add(this.lblHeader);
+            this.Controls.Add(this.lblCreateTournament);
             this.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
@@ -276,7 +276,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblHeader;
+        private System.Windows.Forms.Label lblCreateTournament;
         private System.Windows.Forms.TextBox txtTournamentName;
         private System.Windows.Forms.Label lblTournamentName;
         private System.Windows.Forms.TextBox txtEntryFee;

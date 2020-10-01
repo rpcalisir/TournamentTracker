@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateTeam));
             this.txtTeamName = new System.Windows.Forms.TextBox();
             this.lblTeamName = new System.Windows.Forms.Label();
-            this.lblHeader = new System.Windows.Forms.Label();
+            this.lblCreateTeam = new System.Windows.Forms.Label();
             this.btnAddTeamMember = new System.Windows.Forms.Button();
             this.lblSelectTeamMember = new System.Windows.Forms.Label();
             this.cmbSelectTeamMember = new System.Windows.Forms.ComboBox();
@@ -69,16 +69,16 @@
             this.lblTeamName.TabIndex = 12;
             this.lblTeamName.Text = "Team Name";
             // 
-            // lblHeader
+            // lblCreateTeam
             // 
-            this.lblHeader.AutoSize = true;
-            this.lblHeader.Font = new System.Drawing.Font("Segoe UI Light", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.lblHeader.Location = new System.Drawing.Point(12, 9);
-            this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(218, 51);
-            this.lblHeader.TabIndex = 11;
-            this.lblHeader.Text = "Create Team";
+            this.lblCreateTeam.AutoSize = true;
+            this.lblCreateTeam.Font = new System.Drawing.Font("Segoe UI Light", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCreateTeam.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.lblCreateTeam.Location = new System.Drawing.Point(12, 9);
+            this.lblCreateTeam.Name = "lblCreateTeam";
+            this.lblCreateTeam.Size = new System.Drawing.Size(218, 51);
+            this.lblCreateTeam.TabIndex = 11;
+            this.lblCreateTeam.Text = "Create Team";
             // 
             // btnAddTeamMember
             // 
@@ -273,7 +273,7 @@
             this.Controls.Add(this.cmbSelectTeamMember);
             this.Controls.Add(this.txtTeamName);
             this.Controls.Add(this.lblTeamName);
-            this.Controls.Add(this.lblHeader);
+            this.Controls.Add(this.lblCreateTeam);
             this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
@@ -290,7 +290,7 @@
 
         private System.Windows.Forms.TextBox txtTeamName;
         private System.Windows.Forms.Label lblTeamName;
-        private System.Windows.Forms.Label lblHeader;
+        private System.Windows.Forms.Label lblCreateTeam;
         private System.Windows.Forms.Button btnAddTeamMember;
         private System.Windows.Forms.Label lblSelectTeamMember;
         private System.Windows.Forms.ComboBox cmbSelectTeamMember;
