@@ -55,7 +55,7 @@
             this.lblHeader.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.lblHeader.Location = new System.Drawing.Point(12, 9);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(411, 65);
+            this.lblHeader.Size = new System.Drawing.Size(323, 51);
             this.lblHeader.TabIndex = 1;
             this.lblHeader.Text = "Create Tournament";
             // 
@@ -63,7 +63,7 @@
             // 
             this.txtTournamentName.Location = new System.Drawing.Point(23, 150);
             this.txtTournamentName.Name = "txtTournamentName";
-            this.txtTournamentName.Size = new System.Drawing.Size(400, 43);
+            this.txtTournamentName.Size = new System.Drawing.Size(400, 36);
             this.txtTournamentName.TabIndex = 10;
             // 
             // lblTournamentName
@@ -73,7 +73,7 @@
             this.lblTournamentName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.lblTournamentName.Location = new System.Drawing.Point(15, 101);
             this.lblTournamentName.Name = "lblTournamentName";
-            this.lblTournamentName.Size = new System.Drawing.Size(298, 46);
+            this.lblTournamentName.Size = new System.Drawing.Size(236, 37);
             this.lblTournamentName.TabIndex = 9;
             this.lblTournamentName.Text = "Tournament Name";
             // 
@@ -81,7 +81,7 @@
             // 
             this.txtEntryFee.Location = new System.Drawing.Point(165, 223);
             this.txtEntryFee.Name = "txtEntryFee";
-            this.txtEntryFee.Size = new System.Drawing.Size(258, 43);
+            this.txtEntryFee.Size = new System.Drawing.Size(258, 36);
             this.txtEntryFee.TabIndex = 12;
             this.txtEntryFee.Text = "0";
             this.txtEntryFee.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -93,7 +93,7 @@
             this.lblEntryFee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.lblEntryFee.Location = new System.Drawing.Point(15, 220);
             this.lblEntryFee.Name = "lblEntryFee";
-            this.lblEntryFee.Size = new System.Drawing.Size(158, 46);
+            this.lblEntryFee.Size = new System.Drawing.Size(125, 37);
             this.lblEntryFee.TabIndex = 11;
             this.lblEntryFee.Text = "Entry Fee";
             // 
@@ -102,7 +102,7 @@
             this.cmbSelectTeam.FormattingEnabled = true;
             this.cmbSelectTeam.Location = new System.Drawing.Point(23, 395);
             this.cmbSelectTeam.Name = "cmbSelectTeam";
-            this.cmbSelectTeam.Size = new System.Drawing.Size(400, 45);
+            this.cmbSelectTeam.Size = new System.Drawing.Size(400, 38);
             this.cmbSelectTeam.TabIndex = 13;
             // 
             // lblSelectTeam
@@ -112,7 +112,7 @@
             this.lblSelectTeam.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
             this.lblSelectTeam.Location = new System.Drawing.Point(15, 336);
             this.lblSelectTeam.Name = "lblSelectTeam";
-            this.lblSelectTeam.Size = new System.Drawing.Size(198, 46);
+            this.lblSelectTeam.Size = new System.Drawing.Size(156, 37);
             this.lblSelectTeam.TabIndex = 14;
             this.lblSelectTeam.Text = "Select Team";
             // 
@@ -121,7 +121,7 @@
             this.linklblCreateNewTeam.AutoSize = true;
             this.linklblCreateNewTeam.Location = new System.Drawing.Point(282, 342);
             this.linklblCreateNewTeam.Name = "linklblCreateNewTeam";
-            this.linklblCreateNewTeam.Size = new System.Drawing.Size(152, 38);
+            this.linklblCreateNewTeam.Size = new System.Drawing.Size(119, 30);
             this.linklblCreateNewTeam.TabIndex = 15;
             this.linklblCreateNewTeam.TabStop = true;
             this.linklblCreateNewTeam.Text = "create new";
@@ -159,10 +159,10 @@
             // lbTournamentPlayers
             // 
             this.lbTournamentPlayers.FormattingEnabled = true;
-            this.lbTournamentPlayers.ItemHeight = 37;
-            this.lbTournamentPlayers.Location = new System.Drawing.Point(530, 150);
+            this.lbTournamentPlayers.ItemHeight = 30;
+            this.lbTournamentPlayers.Location = new System.Drawing.Point(529, 160);
             this.lbTournamentPlayers.Name = "lbTournamentPlayers";
-            this.lbTournamentPlayers.Size = new System.Drawing.Size(419, 152);
+            this.lbTournamentPlayers.Size = new System.Drawing.Size(419, 124);
             this.lbTournamentPlayers.TabIndex = 18;
             // 
             // lblTournamentPlayers
@@ -170,9 +170,9 @@
             this.lblTournamentPlayers.AutoSize = true;
             this.lblTournamentPlayers.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTournamentPlayers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.lblTournamentPlayers.Location = new System.Drawing.Point(522, 89);
+            this.lblTournamentPlayers.Location = new System.Drawing.Point(521, 99);
             this.lblTournamentPlayers.Name = "lblTournamentPlayers";
-            this.lblTournamentPlayers.Size = new System.Drawing.Size(239, 46);
+            this.lblTournamentPlayers.Size = new System.Drawing.Size(191, 37);
             this.lblTournamentPlayers.TabIndex = 19;
             this.lblTournamentPlayers.Text = "Teams/ Players";
             // 
@@ -184,7 +184,7 @@
             this.btnDeleteSelectedPlayers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteSelectedPlayers.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteSelectedPlayers.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.btnDeleteSelectedPlayers.Location = new System.Drawing.Point(629, 308);
+            this.btnDeleteSelectedPlayers.Location = new System.Drawing.Point(628, 290);
             this.btnDeleteSelectedPlayers.Name = "btnDeleteSelectedPlayers";
             this.btnDeleteSelectedPlayers.Size = new System.Drawing.Size(226, 48);
             this.btnDeleteSelectedPlayers.TabIndex = 20;
@@ -199,7 +199,7 @@
             this.btnDeleteSelectedPrizes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteSelectedPrizes.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteSelectedPrizes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.btnDeleteSelectedPrizes.Location = new System.Drawing.Point(629, 612);
+            this.btnDeleteSelectedPrizes.Location = new System.Drawing.Point(628, 549);
             this.btnDeleteSelectedPrizes.Name = "btnDeleteSelectedPrizes";
             this.btnDeleteSelectedPrizes.Size = new System.Drawing.Size(226, 48);
             this.btnDeleteSelectedPrizes.TabIndex = 23;
@@ -211,19 +211,19 @@
             this.lblPrizes.AutoSize = true;
             this.lblPrizes.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrizes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.lblPrizes.Location = new System.Drawing.Point(522, 392);
+            this.lblPrizes.Location = new System.Drawing.Point(520, 368);
             this.lblPrizes.Name = "lblPrizes";
-            this.lblPrizes.Size = new System.Drawing.Size(106, 46);
+            this.lblPrizes.Size = new System.Drawing.Size(85, 37);
             this.lblPrizes.TabIndex = 22;
             this.lblPrizes.Text = "Prizes";
             // 
             // lbPrizes
             // 
             this.lbPrizes.FormattingEnabled = true;
-            this.lbPrizes.ItemHeight = 37;
-            this.lbPrizes.Location = new System.Drawing.Point(530, 453);
+            this.lbPrizes.ItemHeight = 30;
+            this.lbPrizes.Location = new System.Drawing.Point(529, 419);
             this.lbPrizes.Name = "lbPrizes";
-            this.lbPrizes.Size = new System.Drawing.Size(419, 152);
+            this.lbPrizes.Size = new System.Drawing.Size(419, 124);
             this.lbPrizes.TabIndex = 21;
             // 
             // btnCreateTournament
@@ -234,7 +234,7 @@
             this.btnCreateTournament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreateTournament.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreateTournament.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.btnCreateTournament.Location = new System.Drawing.Point(322, 705);
+            this.btnCreateTournament.Location = new System.Drawing.Point(319, 645);
             this.btnCreateTournament.Name = "btnCreateTournament";
             this.btnCreateTournament.Size = new System.Drawing.Size(323, 65);
             this.btnCreateTournament.TabIndex = 24;
@@ -243,10 +243,10 @@
             // 
             // CreateTournamentForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1049, 782);
+            this.ClientSize = new System.Drawing.Size(1049, 720);
             this.Controls.Add(this.btnCreateTournament);
             this.Controls.Add(this.btnDeleteSelectedPrizes);
             this.Controls.Add(this.lblPrizes);
