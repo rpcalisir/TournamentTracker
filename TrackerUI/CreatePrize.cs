@@ -34,10 +34,12 @@ namespace TrackerUI
                 txtPrizeAmount.Text = "0";
                 txtPrizePercentage.Text = "0";
 
-                foreach (IDataConnection db in GlobalConfigHelper.Connections)
-                {
-                    db.CreatePrize(prize);
-                }
+                GlobalConfigHelper.Connection.CreatePrize(prize);
+
+                //foreach (IDataConnection db in GlobalConfigHelper.Connections)
+                //{
+                //    db.CreatePrize(prize);
+                //}
 
                 //SqlConnector sqlConnector = new SqlConnector();
                 //sqlConnector.CreatePrize(prize);
