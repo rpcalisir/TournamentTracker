@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Create Prize.cs">
+    <Compile Include="CreatePrize.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Create Prize.Designer.cs">
-      <DependentUpon>Create Prize.cs</DependentUpon>
+    <Compile Include="CreatePrize.Designer.cs">
+      <DependentUpon>CreatePrize.cs</DependentUpon>
     </Compile>
     <Compile Include="CreateTeam.cs">
       <SubType>Form</SubType>
@@ -78,8 +78,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Create Prize.resx">
-      <DependentUpon>Create Prize.cs</DependentUpon>
+    <EmbeddedResource Include="CreatePrize.resx">
+      <DependentUpon>CreatePrize.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreateTeam.resx">
       <DependentUpon>CreateTeam.cs</DependentUpon>
@@ -114,6 +114,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackerLibrary\TrackerLibrary.csproj">
+      <Project>{8571004B-DC33-4DD1-A1D0-D59346E1B4C3}</Project>
+      <Name>TrackerLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
